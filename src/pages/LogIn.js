@@ -2,15 +2,15 @@ import Cookies from 'js-cookie'
 import { useNavigate } from "react-router-dom";
 import logoicon from '../assets/wave-data-logo.svg'
 function Login() {
-      let navigate = useNavigate();
+   let navigate = useNavigate();
    window.onload = (e) => {
-      if (Cookies.get("login") == "true") {      
-         navigate("/courses",{replace:true});
+      if (Cookies.get("login") == "true") {
+         navigate("/courses", { replace: true });
       }
    };
 
    function registerLink() {
-      navigate("/register",{replace:true});
+      navigate("/register", { replace: true });
    }
    async function LoginClick(event) {
       event.target.disabled = true;
@@ -51,7 +51,7 @@ function Login() {
                SuccessNotification.style.display = "block";
                //Login success
                Cookies.set("login", "true");
-               navigate("/courses",{replace:true});
+               navigate("/courses", { replace: true });
 
             } else {
                LoadingICON.style.display = "none";
@@ -73,9 +73,12 @@ function Login() {
 
 
    return (
-      <div className="min-h-screen grid-cols-2 flex">
-         <div className="bg-blue-200 flex-1">
-            <img src={require('../assets/login-picture.png')} className="h-full" alt="WaveData Logo" />
+      <div className="h-screen grid-cols-2 flex">
+         <div className="bg-blue-200 h-full max-h-full overflow-hidden w-1/2">
+            <img src={require('../assets/login-picture.png')} className="h-full" style={{
+               maxWidth: 'max-content',
+               width: 'fit-content'
+            }} alt="WaveData Logo" />
          </div>
          <div className="bg-white flex-1 flex flex-col justify-center items-center">
             <div className="pl-20 pr-20">
