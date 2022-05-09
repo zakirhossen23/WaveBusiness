@@ -84,10 +84,13 @@ function Register() {
         registerbutton.disabled = false;
     }
     return (
-        <div className="min-h-screen grid-cols-2 flex">
-            <div className="bg-blue-200 flex-1">
-                <img src={require('../assets/login-picture.png')} className="h-full" alt="WaveData Logo" />
-            </div>
+        <div className="h-screen grid-cols-2 flex">
+            <div className="bg-blue-200 h-full max-h-full overflow-hidden w-1/2">
+            <img src={require('../assets/login-picture.png')} className="h-full" style={{
+               maxWidth: 'max-content',
+               width: 'fit-content'
+            }} alt="WaveData Logo" />
+         </div>
             <div className="bg-white flex-1 flex flex-col justify-center items-center">
                 <div className="pl-20 pr-20">
                     <img src={logoicon} className="w-3/4 mx-auto" alt="WaveData Logo" />
