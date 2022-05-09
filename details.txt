@@ -1,0 +1,29 @@
+
+
+TigerGraph
+wavedata2022@outlook.com
+wavedata2022
+April14202233 -- Login
+
+
+WaveData
+wave12345
+user:wavedata
+Secret = gcamim96jk5k943dfshu0kth6jkf5tl9
+Token = n63cf58df61rvnp6dgeq4a4rolokeoe8
+---------
+
+FHIR:
+wavedata2022@outlook.com
+April14202233%
+
+FHIR api key:
+FoWtFhNkC92Zi7Xnt9fkvazavyNbMkGv4pYwoQRO
+
+TigerGraph Database cloud:
+https://wavedata.i.tgcloud.io/api/restpp/query/WaveData/{queries}
+
+
+Caryn49
+999-56-7350
+65284
