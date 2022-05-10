@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
 import { useNavigate } from "react-router-dom";
-import logoicon from '../assets/wave-data-logo.svg'
+import logoicon from '../assets/Logo.png'
 function Login() {
    let navigate = useNavigate();
    window.onload = (e) => {
@@ -109,7 +109,9 @@ function Login() {
                   </button>
                </div>
             </div>
+            <div className='p-8 w-56'><img src={require('../assets/bottomlogin.jpeg')} /></div>
          </div>
+       
       </div>
    );
 }

@@ -4,7 +4,7 @@ import UserGroupIcon from '@heroicons/react/solid/UserGroupIcon';
 import CurrencyDollarIcon from '@heroicons/react/solid/CurrencyDollarIcon';
 import ArrowCircleLeftIcon from '@heroicons/react/solid/ArrowCircleLeftIcon';
 import Cookies from 'js-cookie'
-import navicationIcon from '../assets/navigation-panel-logo.svg'
+import navicationIcon from '../assets/Logo.png'
 
 function DashboardLayout() {
    let navigate = useNavigate();

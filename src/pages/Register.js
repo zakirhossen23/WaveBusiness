@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie'
-import logoicon from '../assets/wave-data-logo.svg'
+import logoicon from '../assets/Logo.png'
 import { useNavigate } from "react-router-dom";
 function Register() {
     let navigate = useNavigate();
